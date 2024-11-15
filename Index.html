@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>Portfólio Italo Mateus</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Screenshot_20240512-215105-1.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Italo Mateus Morais de Moura</b></h4>
+    <p class="w3-text-grey">Portfólio Profissional</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFÓLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE MIM</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="avatar.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Portfólio de Italo Mateus</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filtros:</span> 
+      <button class="w3-button w3-black">TODOS</button>
+      <button class="w3-button w3-white"><i class="fa fa-code w3-margin-right"></i>Desenvolvimento</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-cogs w3-margin-right"></i>Manutenção</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-pencil w3-margin-right"></i>Design</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- Portfolio Section-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagem 1.jpg" alt="Sistema de Automação Industrial" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Projeto de Automação Industrial</b></p>
+        <p>Implementação de um sistema de automação para controle de motores em uma linha de produção.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagem 2.jpg" alt="Projeto 2" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Sistema de Monitoramento</b></p>
+        <p>Desenvolvimento de um sistema para monitoramento de variáveis de processo com alertas em tempo real.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="imagem 3.jpg" alt="Projeto 3" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Aplicativo Web para Controle de Estoque</b></p>
+        <p>Desenvolvimento de uma aplicação web para controle e gestão de estoque em Python.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Me Section -->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
+    <h4><b>Sobre Mim</b></h4>
+    <p>Sou Italo Mateus Morais de Moura, técnico em redes e estudante do 1º período do curso de Análise e Desenvolvimento de Sistemas (ADS) na Uninassau Caxangá. Trabalho na BASF, atuando na área de manutenção industrial. Minhas principais áreas de interesse incluem desenvolvimento de sistemas, automação industrial, e tecnologias emergentes.</p>
+    <p>Sou evangélico e faço parte da Igreja Assembleia de Deus Novo Tempo em Camaragibe, onde sou professor da classe de discipulado. Estou sempre em busca de aprimorar meus conhecimentos e compartilhar o que aprendo com minha comunidade.</p>
+    <hr>
+    
+    <h4>Habilidades Técnicas</h4>
+    <p>Desenvolvimento Web</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Programação em Python</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>Eletrônica e Manutenção</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey" id="contact">
+    <h4><b>Contato</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>italomateus5789@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Avenida Belmino Correia, 4115, Bloco 03, Apto</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+55 81 98430-0941</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Nome</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Mensagem</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Enviar Mensagem</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-third">
+      <h3>Contato</h3>
+      <p>Entre em contato para saber mais sobre meus projetos e experiências.</p>
+      <p>Conecte-se comigo no <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>.</p>
+    </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Criado com <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">W3.CSS</a></div>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
